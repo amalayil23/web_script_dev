@@ -1,0 +1,82 @@
+@charset "UTF-8"; /* CSS Document */
+/* The body tag style applies to all elements on the page */
+
+body
+{
+background-color: black;
+}
+
+header, footer 
+    {
+    background-color: black;
+    color: white;
+    text-align: center;
+
+    }
+
+    /*--
+.footer
+    {
+        position:absolute;
+        bottom:0%;
+        font-size: small;
+        /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#4c4c4c+0,595959+12,666666+25,474747+39,2c2c2c+50,000000+51,111111+60,2b2b2b+76,1c1c1c+91,131313+100;Black+Gloss+%231 
+        background: linear-gradient(to bottom,  #4c4c4c 0%,#595959 12%,#666666 25%,#474747 39%,#2c2c2c 50%,#000000 51%,#111111 60%,#2b2b2b 76%,#1c1c1c 91%,#131313 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ 
+
+        height: 50px;
+        width:auto;
+        text-align: center;
+
+    } */
+
+.footer
+{
+
+    position:relative;
+    bottom: 0;
+    width: 100%;
+    height: 20%;   /* Height of the footer */
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#4c4c4c+0,595959+12,666666+25,474747+39,2c2c2c+50,000000+51,111111+60,2b2b2b+76,1c1c1c+91,131313+100;Black+Gloss+%231 */
+        background: linear-gradient(to bottom,  #4c4c4c 0%,#595959 12%,#666666 25%,#474747 39%,#2c2c2c 50%,#000000 51%,#111111 60%,#2b2b2b 76%,#1c1c1c 91%,#131313 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+
+h1
+{
+   
+    color:rgb(218, 137, 16)
+}
+    
+box
+{
+    text-align: left;
+    font-weight: 500;
+    font-size: medium;
+    color: white;
+    float:right;
+    background-color: black;
+a
+{
+    color:white;
+}
+}
+a:hover
+{  
+    color:rgb(218, 137, 16)
+    opacity: 1;   
+}
+
+article
+    {   
+        word-spacing: normal;
+        text-align: center;
+    }
+
+form
+{
+    color:white
+}
+
+    .clear
+    {
+        clear: both;
+    }
