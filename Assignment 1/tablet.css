@@ -1,0 +1,106 @@
+@charset "UTF-8"; /* CSS Document */
+/* The body tag style applies to all elements on the page */
+
+body
+{
+background-color: black;
+height: 90%;
+width: 100%;
+}
+
+header
+    {
+    background-color: black;
+    color: white;
+    text-align: center;
+
+    }
+
+
+.footer
+{
+
+    position:relative;
+    bottom: 0;
+    color:white;
+    text-align:center ;
+    width: 100%;
+    height: 1%;   /* Height of the footer */
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#4c4c4c+0,595959+12,666666+25,474747+39,2c2c2c+50,000000+51,111111+60,2b2b2b+76,1c1c1c+91,131313+100;Black+Gloss+%231 */
+        background: linear-gradient(to bottom,  #4c4c4c 0%,#595959 12%,#666666 25%,#474747 39%,#2c2c2c 50%,#000000 51%,#111111 60%,#2b2b2b 76%,#1c1c1c 91%,#131313 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+
+h1
+{
+    font-size: 50px;
+    color:rgb(218, 137, 16)
+}
+    
+box
+{
+    text-align: right;
+    font-weight: 500;
+    width: 100%;
+    font-size: medium;
+    color: white;
+    float:right;
+    background-color: black;
+}
+a
+{
+    color:white;
+    font-size: 20px;
+}
+h4
+{
+    color:white;
+    text-align: center;
+    font-size: 20px;
+    text-transform: capitalize;
+    text-decoration: underline;
+    font-weight: bold;
+
+}
+p
+{
+    color:white;
+    text-align: center;
+    font-weight: bold;
+}
+form
+
+{
+    text-align: center;
+    
+}
+
+
+a:hover
+{  
+    color:rgb(218, 137, 16);
+    opacity:1;   
+}
+
+article
+    {   
+        word-spacing: normal;
+        text-align: center;
+    }
+
+form
+{
+    color:white
+}
+
+.linear
+{   
+    /* https://color.adobe.com/mythemes */
+    background: linear-gradient(to right, #16375A 0%, 3.187251091003418%, #294D6E 6.374502182006836%, 10.159362852573395%, #4E5B82 13.944223523139954%, 17.82868579030037%, #7B6190 21.713148057460785%, 24.40239116549492%, #976296 27.091634273529053%, 32.47012048959732%, #AB5D8F 37.84860670566559%, 41.1354586482048%, #A24D84 44.42231059074402%, 48.605576157569885%, #18365C 52.78884172439575%, 56.67330622673035%, #2E446D 60.55777072906494%, 64.04382586479187%, #5A537D 67.5298810005188%, 69.92031931877136%, #825886 72.31075763702393%, 79.3824702501297%, #89487E 86.45418286323547%, 93.22709143161774%, #7C226A 100%);
+}
+
+
+
+    .clear
+    {
+        clear: both;
+    }

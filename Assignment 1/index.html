@@ -3,10 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <!-- full-size monitor style sheet-->
+    <link rel="stylesheet" type="text/css" href="style.css" media="only screen and
+    (min-width:960px)">
+    <!-- tablet style sheet-->
+    <link href="tablet.css" rel="stylesheet" type="text/css" media="only screen
+    and (min-width:481px) and (max-width:960px)">
+    <!-- phone style sheet-->
+    <link href="phone.css" rel="stylesheet" type="text/css" media="only screen
+    and (max-width:480px)">
     <title>Abin Malayil - Home</title>
 </head>
 <body>
+
+    <div id = "wrapper"> 
     <header>
         <p ></p>
         <h1>Welcome to my Page!!</h1>
@@ -42,6 +52,7 @@
         <br>
         <br>
         <br>
+        <br><br><br>
         
         
 
@@ -50,8 +61,12 @@
     <div class="clear"></div>
 
     <footer class="footer">
-        Thanks for visiting my Page <br>
-        All rights reserved to &copy; Abin Malayil.
+        <iframe src="footer.html" width="100%" height="100" frameborder="0" scrolling="no"></iframe>
+
     </footer>
+
+</div>
 </body>
+
+
 </html>
